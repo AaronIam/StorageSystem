@@ -40,3 +40,27 @@ button a{
 	font-weight: bold; 
 	font-size: 15px;
 }
+.hamburger-menu {
+	display: inline-block;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-links li {
+        text-align: center;
+        width: 100%;
+    }
+    .hamburger-menu {
+        display: inline-block;
+    }
+}
